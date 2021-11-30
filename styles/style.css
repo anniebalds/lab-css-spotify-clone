@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    height: 70px;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+}
+
+header ul {
+    display: flex;
+    font-size: 1.6em;
+    color: #1A1A1A;
+    font-weight: lighter;
+}
+
+header li {
+    padding: 10px;
+    list-style: none;
+}
+
+#top-section {
+    height:900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('./../images/landing.jpg');
+    background-position: 0,0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 70px
+}
+
+#top-section h1 {
+    font-size: 5em;
+    margin-top: -50px;
+    margin-bottom: -1px;
+}
+
+#top-section p {
+    font-size: 2.5em;
+    width: 1000px;
+    font-weight: lighter
+}
+
+#middle-section {
+    height: 500px;
+    color: #1A1A1A;
+}
+
+#middle-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+    margin-bottom: 80px
+}
+
+.features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+.features-container img {
+    display: flex;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center
+}
+
+.features-item h3 {
+    color: #00B172;
+    font-size: 2em;
+    margin-bottom: -5px
+}
+
+.features-item p {
+    width: 300px;
+    font-size: 1.6em;
+    font-weight: lighter;
+    text-align: center
+}
+
+#bottom-section {
+    background-color: #00B172;
+    height: 750px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 50px;
+}
+
+.bottom-text {
+    width: 350px
+}
+
+.bottom-text h2 {
+    font-size: 2.5em;
+    width: 700px;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight:normal
+}
+
+.bottom-text h4 {
+    font-size: 2em;
+}
+
+.bottom-text p {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: lighter
+}
+
+.small-logo {
+    height: 150px;
+}
+
+.spotify-app {
+    height: 650px
+}
+
